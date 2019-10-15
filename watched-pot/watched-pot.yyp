@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "804d18aa-8bbc-4a48-b255-ee21ed4c8c71",
+            "Value": {
+                "id": "9eb008b6-e19f-4427-99da-e38107b6fcb8",
+                "resourcePath": "scripts\\addBubble\\addBubble.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "83089408-ce6c-40af-a6f6-af384b86ea9f",
             "Value": {
                 "id": "2bf7b0d6-611a-4b3c-848f-3661a0c26f84",
@@ -232,7 +240,8 @@
         }
     ],
     "script_order": [
-        "e04a236a-56fe-4caa-80a7-f72781da9911"
+        "e04a236a-56fe-4caa-80a7-f72781da9911",
+        "804d18aa-8bbc-4a48-b255-ee21ed4c8c71"
     ],
     "tutorial": ""
 }

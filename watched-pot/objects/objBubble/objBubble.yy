@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objBubble",
     "eventList": [
-        
+        {
+            "id": "d180da8f-d888-4150-9bc0-aa2a07de1016",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 76,
+            "eventtype": 8,
+            "m_owner": "51552f88-5f28-4a01-8595-d0f57730c9d7"
+        },
+        {
+            "id": "a88d5bc4-cc7f-4f76-b93c-dbf86dc1d110",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 77,
+            "eventtype": 8,
+            "m_owner": "51552f88-5f28-4a01-8595-d0f57730c9d7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +41,64 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "3b44349c-70cc-41ce-b481-9cb7b4fa576f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "boilstate.still",
+            "varName": "current_state",
+            "varType": 1
+        },
+        {
+            "id": "6ede073b-ac77-48db-b6f0-5ea7a05861bc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "destroy",
+            "varType": 3
+        },
+        {
+            "id": "c6eb9390-eb9c-4411-a385-fd27a189bad6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "index",
+            "varType": 1
+        },
+        {
+            "id": "5fa71cbb-4044-4404-b01a-dfe502a62aa8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "pot",
+            "varType": 4
+        }
+    ],
     "solid": false,
     "spriteId": "c80b24f5-e7dd-4e9a-9263-5a1002989730",
     "visible": true
