@@ -1,0 +1,81 @@
+{
+    "id": "87a979b4-8218-4b74-a275-24410c6a8169",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "objPot",
+    "eventList": [
+        {
+            "id": "13dffc96-dc4c-4859-b5b2-2fa7ec377be4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "87a979b4-8218-4b74-a275-24410c6a8169"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "bea65d71-7840-42e0-b71f-317c71731f92",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "count",
+            "varType": 1
+        },
+        {
+            "id": "faed8c11-a585-4406-83de-3a0220abeee9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "boilstate.still",
+            "varName": "previous_state",
+            "varType": 0
+        },
+        {
+            "id": "aa188694-32e8-4194-9f46-f4778f13743d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "boilstate.still",
+            "varName": "current_state",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "9818fdda-efb0-441d-90d9-70086a1f7492",
+    "visible": true
+}
