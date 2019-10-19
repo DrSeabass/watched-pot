@@ -1,0 +1,181 @@
+{
+    "id": "14a41a0a-6019-4f54-9a11-29717b1a4280",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "objInputListener",
+    "eventList": [
+        {
+            "id": "32703768-d2d4-4a76-b749-93cb75f9de98",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 5,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "d0a088bb-596e-40ee-85a6-ccb8726dcfb5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 10,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "9c5fb89c-ad7c-429b-bf11-7307ef8cc196",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "66309af3-fd58-483d-acc8-f6b96c0dbea1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "ccbcb856-efe8-45f8-ace8-09052c98e01e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "0b2cec16-a49e-4058-a7cd-a545b0fb5a47",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "5f6e96da-c974-4992-9b4f-8481636e9aa1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 8,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "9e464b96-f23a-4e69-bf19-239fd59127ae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 9,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "3a5e3494-090a-41e7-ae62-78b73b53aa64",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 60,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "ef9de243-0369-430a-a731-f1c66b113d1a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 61,
+            "eventtype": 6,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        },
+        {
+            "id": "7cf80338-914b-4545-836d-f1046c7ededc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "14a41a0a-6019-4f54-9a11-29717b1a4280"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "93725103-7c5d-43d9-ab30-f40d526e4a7f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "touched",
+            "varType": 3
+        },
+        {
+            "id": "5f23e26f-b505-4005-bccf-779e4b8ba4c0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "previous_mouse_x",
+            "varType": 1
+        },
+        {
+            "id": "f79f4fd7-6c14-4c03-b96c-9607818c2d46",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "previous_mouse_y",
+            "varType": 1
+        }
+    ],
+    "solid": false,
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
+}
