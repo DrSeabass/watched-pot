@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "6b6ccc73-7eb5-4666-856a-6a2f37fedb80",
+            "Value": {
+                "id": "70bb5e40-2cb7-4687-9305-f5d521c2132e",
+                "resourcePath": "sprites\\sprKitchen\\sprKitchen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "804d18aa-8bbc-4a48-b255-ee21ed4c8c71",
             "Value": {
                 "id": "9eb008b6-e19f-4427-99da-e38107b6fcb8",
