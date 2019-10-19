@@ -41,9 +41,11 @@ if self.count > global.SIMMER_THRESHOLD and self.count < global.SLOW_BOIL_THRESH
 }
 
 if self.previous_state != self.current_state {
+	show_debug_message("Updating state to " + string(self.current_state))
 	for(var i = 0; i < array_length_1d(self.bubble_array); i++){
 		if self.bubble_array[i] != noone {
-			self.bubble_array[i].current_state = self.current_state
+			var bubble = self.bubble_array[i]
+			bubble.current_state = self.current_state
 		}
 	}
 }

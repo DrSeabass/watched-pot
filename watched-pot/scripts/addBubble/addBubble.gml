@@ -7,12 +7,13 @@ var next_index = -1
 for(var i = 0; i < array_length_1d(pot.bubble_array); i++){
 	if pot.bubble_array[i] == noone {
 		next_index = i
+		//show_debug_message("found bubble add index at " + string(next_index))
 		i = array_length_1d(pot.bubble_array)
 	}
 }
 
 if next_index == -1 {
-	show_debug_message("pot full; not adding bubbles")
+	//show_debug_message("pot full; not adding bubbles")
 	return
 }
 
