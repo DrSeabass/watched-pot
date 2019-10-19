@@ -195,6 +195,20 @@
             "value": "0.8",
             "varName": "ROLL_CHANCE",
             "varType": 0
+        },
+        {
+            "id": "7ad82f13-6a83-4731-82df-97e9359a8fd3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "input_listener",
+            "varType": 4
         }
     ],
     "solid": false,

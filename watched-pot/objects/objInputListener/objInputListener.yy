@@ -173,6 +173,20 @@
             "value": "-1",
             "varName": "previous_mouse_y",
             "varType": 1
+        },
+        {
+            "id": "359c2b41-2769-4b52-873a-b6d8e4ea8f23",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "pot",
+            "varType": 4
         }
     ],
     "solid": false,
