@@ -38,6 +38,8 @@ if self.count > global.SIMMER_THRESHOLD and self.count < global.SLOW_BOIL_THRESH
 			addBubble(self)
 		}
 	}
+} else {
+	self.current_state = boilstate.still
 }
 
 if self.previous_state != self.current_state {

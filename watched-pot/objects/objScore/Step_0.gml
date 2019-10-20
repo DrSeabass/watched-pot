@@ -17,4 +17,4 @@ if self.pot != noone {
 	}
 }
 
-self.score = self.ticks_simmered * global.SIMMER_POINTS + self.ticks_slow_boil * global.SLOW_BOIL_POINTS + self.ticks_hard_boil * global.ROLLING_BOIL_POINTS
+self.points = self.ticks_simmered * global.SIMMER_POINTS + self.ticks_slow_boil * global.SLOW_BOIL_POINTS + self.ticks_hard_boil * global.ROLLING_BOIL_POINTS

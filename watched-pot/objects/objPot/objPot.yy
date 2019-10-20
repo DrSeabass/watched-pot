@@ -209,6 +209,34 @@
             "value": "noone",
             "varName": "input_listener",
             "varType": 4
+        },
+        {
+            "id": "1f178eba-1b2e-4984-8392-28f33afd553d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "score_keeper",
+            "varType": 4
+        },
+        {
+            "id": "e2a8b303-5075-4d35-8b30-5b4dd583fc03",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "timer",
+            "varType": 4
         }
     ],
     "solid": false,

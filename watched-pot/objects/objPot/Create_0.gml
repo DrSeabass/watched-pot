@@ -9,3 +9,9 @@ for(var i = 0; i < 50; i ++){
 
 self.input_listener = instance_create_depth(0,0,0, objInputListener)
 self.input_listener.pot = self
+
+self.score_keeper = instance_create_depth(530, 50, 0, objScore)
+self.score_keeper.pot = self
+
+self.timer = instance_create_depth(530, 150, 0, objClock)
+self.timer.pot = self

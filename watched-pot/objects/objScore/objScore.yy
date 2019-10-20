@@ -109,7 +109,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "score",
+            "varName": "points",
             "varType": 1
         }
     ],
