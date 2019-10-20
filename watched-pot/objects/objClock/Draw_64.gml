@@ -8,9 +8,29 @@ var display_minutes = minutes mod 60
 var display_seconds = self.time_sum_seconds mod 60
 
 var display_string = "Time Boiling: "
-display_string += string_format(days, 2, 0) + ":"
-display_string += string_format(display_hours, 2, 0) + ":"
-display_string += string_format(display_minutes, 2, 0) + ":"
-display_string += string_format(display_seconds, 2, 0)
+
+if days < 10 {
+	display_string += "0" + string(days) + ":"
+}else{
+	display_string += string(days) + ":"
+}
+
+if display_hours < 10 {
+	display_string += "0" + string(display_hours) + ":"
+}else{
+	display_string += string(display_hours) + ":"
+}
+
+if display_minutes < 10 {
+	display_string += "0" + string(display_minutes) + ":"
+}else{
+	display_string += string(display_minutes) + ":"
+}
+
+if display_seconds < 10 {
+	display_string += "0" + string(display_seconds)
+}else{
+	display_string += string(display_seconds)
+}
 
 draw_text(x, y, display_string)
