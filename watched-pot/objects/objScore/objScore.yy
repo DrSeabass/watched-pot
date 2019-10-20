@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "844b3b80-ffe0-4297-b94b-b84225edbe9a"
+        },
+        {
+            "id": "fccf2558-7976-4e50-947a-19b93467b28d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "844b3b80-ffe0-4297-b94b-b84225edbe9a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -87,6 +97,20 @@
             "value": "noone",
             "varName": "pot",
             "varType": 4
+        },
+        {
+            "id": "2ae38c68-db50-4d0b-ad3f-72d61c37c47a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "score",
+            "varType": 1
         }
     ],
     "solid": false,

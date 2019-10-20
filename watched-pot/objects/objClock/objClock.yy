@@ -13,6 +13,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "6ec62c2f-6f67-4178-b174-bf9c07b4992f"
+        },
+        {
+            "id": "a17119f7-f044-40c7-94a4-67b565d401fa",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "6ec62c2f-6f67-4178-b174-bf9c07b4992f"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -59,6 +69,20 @@
             "value": "-1",
             "varName": "boil_start",
             "varType": 0
+        },
+        {
+            "id": "f5b41a55-68c0-4119-b4dd-b5a9ab96a871",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "pot",
+            "varType": 4
         }
     ],
     "solid": false,
